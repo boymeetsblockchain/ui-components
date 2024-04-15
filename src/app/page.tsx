@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { Card } from "@/components/cards/card";
 
 export default function Home() {
   return (
-    <div className="main">
-      Hello
-    </div>
+   <div className="flex justify-center items-center h-screen mx-auto bg-black">
+      <Card/>
+   </div>
   );
 }
