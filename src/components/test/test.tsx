@@ -1,0 +1,1 @@
+const type = "this is a test"
